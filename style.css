@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans&display=swap");
+* {
+  font-family: 'Google Sans';
+}
+
+main {
+  width: 100%;
+  max-width: 65em;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px;
+  line-height: 1.7;
+}
+
+h4 {
+  color: grey
+}
+
+#run {
+  padding: 8px;
+  background-color: dodgerblue;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+code {
+    margin: 0 auto;
+    font-family: monospace !important;
+    background-color: #e8e8e8;
+    display: block;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+}
+
+hr {
+    width: 100%;
+    height: 2px;
+    border-width: 0;
+    border-radius: 2px;
+    color: gray;
+    background-color: gray
+}
+
+.keyword {
+  font-family: inherit;
+  color: darkorange;
+}
+
+.quote {
+  font-family: inherit;
+  color: green;
+}
+
+.number {
+  font-family: inherit;
+  color: dodgerblue;
+}
+
+.var {
+  font-family: inherit;
+  color: purple;
+}
+
+p {
+  font-size: 12px;
+  text-align: left;
+}
+
+#docs {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.cen {
+  text-align: center;
+}
+
+a {
+  color: dodgerblue;
+  text-decoration-line: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration-line: underline;
+}

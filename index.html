@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="/script.js"></script>
+    <title>Streak Engine V.5.5</title>
+    <link href="/style.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" value="Streak" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://img.icons8.com/color/10x/comet.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="https://img.icons8.com/color/10x/comet.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="https://img.icons8.com/color/10x/comet.png" />
+    <link rel="mask-icon" href="https://img.icons8.com/color/10x/comet.png" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#2b5797" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <main>
+      <h1>Streak Engine</h1>
+      <h4>A language engine built on JavaScript ECMAScript 6</h4>
+      <br />
+      <button id="run" href="#">Run</button>
+      <br />
+      <br />
+      <hr />
+      <br />
+      <div id="docs">
+        <!-- HELLO WORLD -->
+        <h4>Basic Hello World Example</h4>
+        <p>Input:</p>
+        <code>
+          &gt;&gt; <span class="keyword">say</span>
+          <span class="quote">&quot;Hello, World!&quot;</span></code
+        >
+        <p>Output:</p>
+        <code><span class="quote">&quot;Hello, World!&quot;</span></code>
+        <br />
+        <!-- MATH -->
+        <br />
+        <hr />
+        <br />
+        <h4>Basic Mathematics</h4>
+        <p>Input:</p>
+        <code
+          >&gt;&gt; <span class="keyword">add</span>
+          <span class="number">1 1 3</span></code
+        >
+        <p>Output:</p>
+        <code><span class="number">5</span></code>
+        <br />
+        <p>Input:</p>
+        <code
+          >&gt;&gt; <span class="keyword">mul</span>
+          <span class="number">6 3</span></code
+        >
+        <p>Output:</p>
+        <code><span class="number">18</span></code>
+        <br />
+        <p>Input:</p>
+        <code
+          >&gt;&gt; <span class="keyword">sub</span>
+          <span class="number">18 4</span></code
+        >
+        <p>Output:</p>
+        <code><span class="number">14</span></code>
+        <br />
+        <p>Input:</p>
+        <code
+          >&gt;&gt; <span class="keyword">div</span>
+          <span class="number">9 3</span></code
+        >
+        <p>Output:</p>
+        <code><span class="number">3</span></code>
+        <br />
+        <p>Input:</p>
+        <code
+          >&gt;&gt; <span class="keyword">sqrt</span>
+          <span class="number">25</span></code
+        >
+        <p>Output:</p>
+        <code><span class="number">5</span></code>
+        <br />
+        <!-- VARIABLES -->
+        <br />
+        <hr />
+        <br />
+        <h4>Variables</h4>
+        <p>Input:</p>
+        <code
+          >&gt;&gt; <span class="keyword">let</span> <span class="var">x</span>
+          <span class="quote">&quot;Hello!&quot;</span></code
+        >
+        <br />
+        <code
+          >&gt;&gt; <span class="keyword">let</span> <span class="var">y</span>
+          <span class="number">32</span></code
+        >
+        <br />
+        <!-- ARRAYS -->
+        <br />
+        <hr />
+        <br />
+        <h4>Arrays</h4>
+        <p>Input:</p>
+        <code
+          >&gt;&gt; <span class="keyword">let</span> <span class="var">x</span>
+          <span class="quote">[&quot;Hello!&quot;,&quot;Hi!&quot;]</span></code
+        >
+        <br />
+        <code
+          >&gt;&gt; <span class="keyword">say</span>
+          <span class="var">x</span></code
+        >
+        <p>Output:</p>
+        <code><span class="quote">[Hello!,Hi!]</span></code>
+        <br />
+        <p class="cen">Accessing Index Values:</p>
+        <p>Input:</p>
+        <code
+          >&gt;&gt; <span class="keyword">say</span>
+          <span class="var">x:0</span></code
+        >
+        <p>Output:</p>
+        <code><span class="quote">Hello!</span></code>
+        <br />
+        <br />
+        <hr />
+        <br />
+        <h4>Objects</h4>
+        <p>Input:</p>
+        <code
+          >&gt;&gt; <span class="keyword">let</span> <span class="var">x</span>
+          <span class="quote"
+            >{&quot;name&quot;:&quot;Bob&quot;,&quot;lname&quot;:&quot;R&quot;}</span
+          ></code
+        >
+        <br />
+        <code
+          >&gt;&gt; <span class="keyword">say</span>
+          <span class="var">x</span></code
+        >
+        <p>Output:</p>
+        <code><span class="quote">{"name":"Bob","lname":"Rakshit"}</span></code>
+        <br />
+        <p class="cen">Accessing Index Values:</p>
+        <p>Input:</p>
+        <code
+          >&gt;&gt; <span class="keyword">say</span>
+          <span class="var">x:name</span></code
+        >
+        <p>Output:</p>
+        <code><span class="quote">Bob</span></code>
+        <br />
+        <br />
+        <hr />
+        <br />
+        <h4>Other</h4>
+        <code
+          >&gt;&gt; <span class="keyword">write</span>
+          <span class="quote">&quot;Hello!&quot;</span></code
+        >
+        <br />
+      </div>
+    </main>
+    <script>
+      document.querySelector("#run").onclick = () => location.href="/run/"
+    </script>
+    <p style="font-size: 12px; text-align: center;">
+      <a href="https://icons8.com/icon/11894/comet">Comet icon by Icons8</a>
+    </p>
+  </body>
+</html>
