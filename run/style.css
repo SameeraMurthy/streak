@@ -1,0 +1,12 @@
+html, body {
+  background-color: #121212;
+}
+
+#editor {
+  background-color: #121212;
+  color: white;
+  font-family: Consolas, 'Courier New', monospace;
+  border: 0;
+  outline:0;
+  margin-top:0
+}
