@@ -1,8 +1,6 @@
 # Streak Engine
 
-### Developed by Streak Group
-
-#### Contributors:
+### Developed By:
   - [Sameera Murthy](https://glitch.com/@sameeramurthy)
   - [Rakshit Ranga](https://glitch.com/@rakshitranga)
 _______________________________________________________
