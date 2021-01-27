@@ -1,5 +1,8 @@
 # Streak Engine
 
+### Docs
+Go to the [Github Wiki](https://github.com/SameeraMurthy/streak/wiki) to access the docs.
+
 ### Developed By:
   - [Sameera Murthy](https://glitch.com/@sameeramurthy)
   - [Rakshit Ranga](https://glitch.com/@rakshitranga)
